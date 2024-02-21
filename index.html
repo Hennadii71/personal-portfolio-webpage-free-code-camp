@@ -7,23 +7,59 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <header class="header container">
+      <nav class="navbar" id="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-list-item"><a href="#welcome-section">Home</a></li>
+          <li class="navbar-list-item"><a href="#projects">Projects</a></li>
+          <li class="navbar-list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container">
-      <header>
-        <nav id="navbar">
-          <ul>
-            <li><a href="#welcome-section">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a>t</li>
-          </ul>
-        </nav>
-      </header>
-      <section id="welcome-section">
-        <h3>Welcome to my page</h3>
-        <h1>I am Hennadii</h1>
-        <p>Front end developer</p>
+      <section class="welcome-section" id="welcome-section">
+        <div class="content-welcome-section">
+          <h3>Welcome to my page</h3>
+          <h1>I am Hennadii</h1>
+          <p>Front end developer</p>
+        </div>
       </section>
-      <section id="projects"></section>
-      <section id="contact"></section>
+      <section id="projects">
+        <div class="project-tile">
+          <a
+            href="https://hennadii71.github.io/goit-murkup-hw-06/portfolio.html"
+            target="_blank"
+          >
+            <h3>Web studio</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a
+            href="https://anatoliizhurov.github.io/bytebenders/"
+            target="_blank"
+          >
+            <h3>Simply chocolate</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Hennadii71" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a
+              id="profile-link"
+              href="https://www.freecodecamp.org/ukrainian/fcc5d838a24-7515-4cec-90e0-5c975b5d7c98"
+              target="_blank"
+              >FreeCodeCamp</a
+            >
+          </li>
+        </ul>
+      </section>
       <footer></footer>
     </div>
   </body>
